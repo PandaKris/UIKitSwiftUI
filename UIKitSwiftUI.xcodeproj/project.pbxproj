@@ -11,6 +11,8 @@
 		67CFC5FB2BFC80AF0045EFFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CFC5FA2BFC80AF0045EFFC /* ContentView.swift */; };
 		67CFC5FD2BFC80B00045EFFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67CFC5FC2BFC80B00045EFFC /* Assets.xcassets */; };
 		67CFC6002BFC80B00045EFFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67CFC5FF2BFC80B00045EFFC /* Preview Assets.xcassets */; };
+		67CFC6072BFC80D70045EFFC /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CFC6062BFC80D70045EFFC /* CameraViewController.swift */; };
+		67CFC6092BFC838D0045EFFC /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CFC6082BFC838D0045EFFC /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		67CFC5FA2BFC80AF0045EFFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		67CFC5FC2BFC80B00045EFFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67CFC5FF2BFC80B00045EFFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67CFC6062BFC80D70045EFFC /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		67CFC6082BFC838D0045EFFC /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		67CFC5F72BFC80AF0045EFFC /* UIKitSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				67CFC6062BFC80D70045EFFC /* CameraViewController.swift */,
+				67CFC6082BFC838D0045EFFC /* CameraView.swift */,
 				67CFC5F82BFC80AF0045EFFC /* UIKitSwiftUIApp.swift */,
 				67CFC5FA2BFC80AF0045EFFC /* ContentView.swift */,
 				67CFC5FC2BFC80B00045EFFC /* Assets.xcassets */,
@@ -139,6 +145,8 @@
 			files = (
 				67CFC5FB2BFC80AF0045EFFC /* ContentView.swift in Sources */,
 				67CFC5F92BFC80AF0045EFFC /* UIKitSwiftUIApp.swift in Sources */,
+				67CFC6072BFC80D70045EFFC /* CameraViewController.swift in Sources */,
+				67CFC6092BFC838D0045EFFC /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,7 @@
 				DEVELOPMENT_TEAM = YA2L55RA8L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Using camera for testing purpose";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +313,7 @@
 				DEVELOPMENT_TEAM = YA2L55RA8L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Using camera for testing purpose";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
